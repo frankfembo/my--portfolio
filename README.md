@@ -1,14 +1,19 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# My Portfolio
 
-> Description the project.
+> In this project, I..
 
+- Add html, css, & workflows linting files.
+- Add page content in article & navigation bar.
+- Styled page basically & add bckgrnd img's.
+- Styled up more with media queries for responsive.
+- Update style.css.
 
 ## Built With
 
-- Major languages
-- Frameworks
+- HTML & CSS
+- Github/workflows
 - Technologies used
 
 ## Live Demo (if available)
@@ -42,9 +47,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@frankfembo](https://github.com/githubhandle)
+- Twitter: [@FrankTe147](https://twitter.com/twitterhandle)
+- LinkedIn: [Frank-Tembo](https://linkedin.com/in/linkedinhandle)
 
 👤 **Author2**
 
