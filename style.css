@@ -26,7 +26,8 @@ html * {
     width: 100%;
   }
 
-  .descript, .prof {
+  .descript,
+  .prof {
     width: 100%;
     height: auto;
     margin: 0;
@@ -38,12 +39,13 @@ html * {
     width: 100%;
   }
 
-  .discript, .prof p {
+  .discript,
+  .prof p {
     max-width: 375px;
   }
 
   .lang-skills {
-    padding: 25px 0px;
+    padding: 25px 0;
   }
 }
 
@@ -130,6 +132,9 @@ html * {
 }
 
 .descript {
+  width: 620px;
+  display: flex;
+  justify-content: center;
   background-image: url('./images/circle\ 2\ hder@2x.png');
   background-position: relative;
   background-size: 18%;
@@ -155,12 +160,6 @@ h1 {
   font-weight: 400;
   font-size: 23px;
   margin-bottom: 22px;
-}
-
-.descript {
-  width: 620px;
-  display: flex;
-  justify-content: center;
 }
 
 .descript .prof {
