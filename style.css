@@ -341,88 +341,17 @@ li {
   list-style-type: none;
 }
 
+.butn > button :hover {
+  background-color: rgb(101, 101, 241);
+}
+
 .butn > button {
-  font-size: 16px;
-  border-radius: 5px;
-  color: antiquewhite;
-  background-color: #3f79e6;
-  padding: 10px 8px;
-}
-
-/* About section */
-
-.abt-me {
-  display: grid;
-  background-image: url("./images/portfolio\ background\ shapes\ mobile@2x.png");
-  background-position: absolute;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-color: rgba(14, 2, 36, 0.644);
-  padding: 20px;
-}
-
-.post-about {
-  display: grid;
-  padding-block: 26px;
-  margin-block: 25px;
-  padding: 20px;
-  outline: 2px solid rgb(47, 125, 128);
-  background-color: rgba(11, 50, 94, 0.7);
-}
-
-.img > img {
-  height: auto;
-  margin-block: 26px;
-}
-
-.specia > li {
-  display: inline-flex;
-  margin-inline: 7px;
-  margin-block: 10px;
-  padding-bottom: 24px;
-  font-size: 16px;
-}
-
-.vert-line {
-  display: inline-block;
-  border-right: 1px solid rgb(105, 98, 98);
-  border-left: 1px solid rgb(105, 98, 98);
-  margin: 0 7px;
-  height: 28px;
-}
-
-.mult-txt {
-  font-style: normal;
-  line-height: 28px;
-  text-align: center;
-}
-
-.abt-btns {
-  display: grid;
-  margin-block: 12px;
-  justify-content: center;
-  align-self: center;
-  gap: 10px;
-}
-
-.abt-btns > button > .fa {
-  font-size: 20px;
-  text-decoration: none;
-  margin-left: 6px;
-  color: rgb(226, 210, 188);
-}
-
-.abt-btns > button {
   cursor: pointer;
   font-size: 16px;
-  border-radius: 5px;
   color: antiquewhite;
-  padding: 10px 7px;
-  background-color: #3f79e6;
+  background-color: #1c3cee;
+  padding: 15px 7px;
+  border-style: none;
 }
 
-.butn,
-a :hover {
-  cursor: pointer;
-  background-color: rgb(15, 15, 240);
-}
+
