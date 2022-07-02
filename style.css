@@ -73,7 +73,7 @@
   height: 100%;
   align-self: center;
   border-radius: 2.5% 2.5%;
-  background-color: #00006b;
+  background-color: #00005b;
 }
 
 .nav-bar {
@@ -82,7 +82,7 @@
   height: 52px;
   justify-content: space-between;
   align-items: center;
-  background-color: #00006b;
+  background-color: #00005b;
 }
 
 .menu {
@@ -96,6 +96,7 @@
   color: rgb(172, 141, 141);
   padding: 6px;
   font-size: 10px;
+  margin-right: 12px;
 }
 
 .nav-item a {
@@ -107,7 +108,7 @@
 }
 
 .nav-logo {
-  padding: 8px;
+  padding: 16px;
   text-decoration: none;
   color: rgb(207, 184, 184);
   font-size: 19px;
@@ -118,7 +119,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  background-color: #00006b;
+  background-color: #00005b;
   justify-items: center;
   align-items: center;
 }
@@ -186,7 +187,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding: 16px;
-  gap: 24px;
+  gap: 30px;
 }
 
 .lang-skills .lang {
@@ -218,7 +219,7 @@ li {
   height: 72px;
   max-width: 500px;
   position: relative;
-  background-color: #00006b;
+  background-color: #00005b;
   justify-content: center;
   align-content: center;
   padding: 20px 0;
@@ -237,7 +238,7 @@ li {
   font-size: 24px;
   max-width: 32px;
   color: #b3bac5;
-  background: #00006b;
+  background: #00005b;
   text-decoration: none;
 }
 
@@ -257,4 +258,98 @@ li {
 .footer p {
   color: #808080;
   font-size: 18px;
+}
+
+/* Portfolio-Work section */
+
+.work-content {
+  display: block;
+  padding: 22px;
+  margin-block: 25px;
+}
+
+.recent-work > h2 {
+  display: block;
+  color: #6495ed;
+  margin-block: 5px;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.recent-work > .wh2 {
+  margin-bottom: 25px;
+}
+
+.image {
+  margin-block: 35px;
+}
+
+.image > img {
+  height: 220px;
+}
+
+.ellips-1 {
+  background-image: url("./images/Ellipse\ 19@2x.png");
+  background-position: relative;
+  background-size: 32%;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: center;
+}
+
+.ellips-3 {
+  background-image: url("./images/Ellipse\ 20@2x.png");
+  background-position: relative;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+
+.multi-post > h3 {
+  color: rgb(212, 212, 198);
+  font-weight: 430;
+  font-size: 22px;
+  margin-bottom: 31px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.multi-post > p {
+  color: #afabab;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 25px;
+  font-family: 'Lusida Sans', Helvetica, sans-serif;
+}
+
+.specialize > li {
+  display: inline-flex;
+  margin-inline: 7px;
+  margin-block: 10px;
+  padding-bottom: 24px;
+  font-size: 16px;
+}
+
+.trim-line {
+  display: inline-block;
+  border-left: 1px solid rgb(105, 98, 98);
+  margin: 0 9px;
+  height: 28px;
+}
+
+.butn {
+  list-style-type: none;
+}
+
+.butn > button :hover {
+  background-color: rgb(101, 101, 241);
+}
+
+.butn > button {
+  cursor: pointer;
+  font-size: 16px;
+  color: antiquewhite;
+  background-color: #1c3cee;
+  padding: 15px 7px;
+  border-style: none;
 }
