@@ -421,7 +421,7 @@ li {
   background-color: #3f79e6;
 }
 
-button,
+.butn,
 a :hover {
   cursor: pointer;
   background-color: rgb(15, 15, 240);
