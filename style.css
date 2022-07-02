@@ -96,6 +96,7 @@
   color: rgb(172, 141, 141);
   padding: 6px;
   font-size: 10px;
+  margin-right: 12px;
 }
 
 .nav-item a {
@@ -107,7 +108,7 @@
 }
 
 .nav-logo {
-  padding: 8px;
+  padding: 16px;
   text-decoration: none;
   color: rgb(207, 184, 184);
   font-size: 19px;
@@ -186,7 +187,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding: 16px;
-  gap: 24px;
+  gap: 30px;
 }
 
 .lang-skills .lang {
@@ -288,7 +289,22 @@ li {
   height: 220px;
 }
 
-.ellips {
+.ellips-1 {
+  background-image: url("./images/Ellipse\ 19@2x.png");
+  background-position: relative;
+  background-size: 32%;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: center;
+}
+
+.ellips-3 {
+  background-image: url("./images/Ellipse\ 20@2x.png");
+  background-position: relative;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
 }
 
 .multi-post > h3 {
@@ -322,7 +338,13 @@ li {
   height: 28px;
 }
 
+.butn {
+  list-style-type: none;
+}
+
 .butn > button {
+  font-size: 16px;
+  border-radius: 5px;
   color: antiquewhite;
   background-color: #3f79e6;
   padding: 10px 8px;
