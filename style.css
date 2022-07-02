@@ -260,8 +260,7 @@ li {
   font-size: 18px;
 }
 
-
-/*--Portfolio-Work section--*/
+/* Portfolio-Work section */
 
 .work-content {
   display: block;
@@ -350,7 +349,7 @@ li {
   padding: 10px 8px;
 }
 
-/*About section*/
+/* About section */
 
 .abt-me {
   display: grid;
@@ -406,7 +405,7 @@ li {
   gap: 10px;
 }
 
-button > .fa {
+.abt-btns > button > .fa {
   font-size: 20px;
   text-decoration: none;
   margin-left: 6px;
@@ -414,6 +413,7 @@ button > .fa {
 }
 
 .abt-btns > button {
+  cursor: pointer;
   font-size: 16px;
   border-radius: 5px;
   color: antiquewhite;
@@ -421,3 +421,8 @@ button > .fa {
   background-color: #3f79e6;
 }
 
+button,
+a :hover {
+  cursor: pointer;
+  background-color: rgb(15, 15, 240);
+}
