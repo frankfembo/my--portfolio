@@ -357,13 +357,10 @@ li {
 /*Contact Form*/
 
 .c-form {
-  display: block;
+  display: flex;
+  flex-direction: column;
   column-gap: 30px;
   padding: 20px;
-}
-
-.c-form > form {
-  width: 100%;
 }
 
 .con-us {
@@ -383,7 +380,30 @@ li {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.li-item > label {
+.li-item {
   gap: 30px;
-  height: 60px;
+}
+
+.detail-input {
+  padding: 10px;
+  background-color: aliceblue;
+  width: 100%;
+  margin: 10px 0;
+  border-style: none;
+}
+
+.submit-btn {
+  color: aliceblue;
+  padding: 14px 16px;
+  background-color: #072af3;
+  border-style: none;
+  justify-self: center;
+  font-size: 16px;
+}
+
+.btn-container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
 }
