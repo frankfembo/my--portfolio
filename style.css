@@ -377,6 +377,7 @@ li {
   text-align: center;
   font-size: 16px;
   line-height: 20px;
+  margin-bottom: 23px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -392,7 +393,12 @@ li {
   border-style: none;
 }
 
+.submit-btn :hover {
+  background-color: #6495ed;
+}
+
 .submit-btn {
+  cursor: pointer;
   color: aliceblue;
   padding: 14px 16px;
   background-color: #072af3;
@@ -406,4 +412,10 @@ li {
   align-items: center;
   text-align: center;
   margin: 20px 0;
+}
+
+.email-me {
+  text-decoration: none;
+  margin: 10px 0 20px 0;
+
 }
