@@ -353,3 +353,37 @@ li {
   padding: 15px 7px;
   border-style: none;
 }
+
+/*Contact Form*/
+
+.c-form {
+  display: block;
+  column-gap: 30px;
+  padding: 20px;
+}
+
+.c-form > form {
+  width: 100%;
+}
+
+.con-us {
+  color: #538bf1;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 23px;
+  font-weight: 500;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.con-par {
+  color: #afabab;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.li-item > label {
+  gap: 30px;
+  height: 60px;
+}
