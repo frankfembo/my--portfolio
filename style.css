@@ -354,7 +354,7 @@ li {
   border-style: none;
 }
 
-/*Contact Form*/
+/* Contact Form */
 
 .c-form {
   display: flex;
@@ -393,10 +393,6 @@ li {
   border-style: none;
 }
 
-.submit-btn :hover {
-  background-color: #6495ed;
-}
-
 .submit-btn {
   cursor: pointer;
   color: aliceblue;
@@ -417,5 +413,4 @@ li {
 .email-me {
   text-decoration: none;
   margin: 10px 0 20px 0;
-
 }
