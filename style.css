@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
 * {
   padding: 0;
   margin: 0;
@@ -232,11 +234,10 @@ li {
 }
 
 .footer .fa {
-  padding: 10px;
   text-align: center;
-  margin: 5px 4px;
+  margin: 5px 3px;
   font-size: 24px;
-  width: 24px;
+  width: 22px;
   height: 24;
   color: #b3bac5;
   background: #00005b;
@@ -371,7 +372,7 @@ li {
   font-size: 30px;
   font-weight: 500;
   line-height: 44px;
-  font-family: Helvetica, 'Roboto', 'Ubuntu', sans-serif;
+  font-family: 'Roboto', 'Ubuntu', sans-serif;
 }
 
 .con-par {
@@ -404,7 +405,7 @@ li {
   display: flex;
   align-items: center;
   padding: 10px;
-  font-family: 'Inter', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Inter',sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -419,7 +420,7 @@ li {
   color: #edecff;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
-  padding: 12px 17px;
+  padding: 12px 19px;
   font-weight: 500;
   background-color: #7d73fc;
   border-style: none;
@@ -446,7 +447,7 @@ a:hover {
   align-self: center;
   border-bottom: 2px solid rgb(70, 67, 67);
   margin: 10px 0 0 0;
-  width: 335px;
+  width: 100%;
 }
 
 .email-me {
@@ -464,5 +465,5 @@ a:hover {
   display: block;
   border-top: 3px solid rgb(0, 0, 0);
   margin: 0 0 7px 0;
-  width: 150px;
+  width: 174px;
 }
