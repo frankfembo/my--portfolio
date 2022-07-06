@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
 * {
   padding: 0;
   margin: 0;
@@ -232,11 +234,11 @@ li {
 }
 
 .footer .fa {
-  padding: 10px;
   text-align: center;
-  margin: 5px 4px;
+  margin: 5px 3px;
   font-size: 24px;
-  max-width: 32px;
+  width: 22px;
+  height: 24;
   color: #b3bac5;
   background: #00005b;
   text-decoration: none;
@@ -352,4 +354,116 @@ li {
   background-color: #1c3cee;
   padding: 15px 7px;
   border-style: none;
+}
+
+/* Contact Form */
+
+.c-form {
+  display: flex;
+  flex-direction: column;
+  column-gap: 30px;
+  padding: 20px;
+}
+
+.con-us {
+  color: #9390ff;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 44px;
+  font-family: 'Roboto', 'Ubuntu', sans-serif;
+}
+
+.con-par {
+  color: #f5f5ff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 23px;
+  padding: 12px;
+  margin-bottom: 23px;
+  font-family: 'Inter', sans-serif;
+}
+
+.li-item {
+  gap: 30px;
+  margin-bottom: 24px;
+}
+
+.name-input,
+.text-input {
+  color: #81818c;
+}
+
+.email-input {
+  color: #191765;
+  border: 1px solid #9490ff;
+}
+
+.detail-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  background-color: #f7f3ff;
+  width: 100%;
+  margin: 10px 0;
+  border-style: none;
+}
+
+.submit-btn {
+  cursor: pointer;
+  color: #edecff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  padding: 12px 19px;
+  font-weight: 500;
+  background-color: #7d73fc;
+  border-style: none;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  box-shadow: rgba(125, 115, 252, 0.48);
+}
+
+.submit-btn:hover,
+a:hover {
+  color: #fff;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.end-line {
+  display: block;
+  align-self: center;
+  border-bottom: 2px solid rgb(70, 67, 67);
+  margin: 10px 0 0 0;
+  width: 100%;
+}
+
+.email-me {
+  color: #ebebff;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 10px 0 20px 0;
+}
+
+.mail-line {
+  display: block;
+  border-top: 3px solid rgb(0, 0, 0);
+  margin: 0 0 7px 0;
+  width: 174px;
 }
