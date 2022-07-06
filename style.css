@@ -236,7 +236,8 @@ li {
   text-align: center;
   margin: 5px 4px;
   font-size: 24px;
-  max-width: 32px;
+  width: 24px;
+  height: 24;
   color: #b3bac5;
   background: #00005b;
   text-decoration: none;
@@ -364,53 +365,104 @@ li {
 }
 
 .con-us {
-  color: #538bf1;
+  color: #9390FF;
   text-align: center;
   margin-bottom: 25px;
-  font-size: 23px;
+  font-size: 30px;
   font-weight: 500;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 44px;
+  font-family: Helvetica, 'Roboto', 'Ubuntu', sans-serif;
 }
 
 .con-par {
-  color: #afabab;
+  color: #F5F5FF;
   text-align: center;
   font-size: 16px;
-  line-height: 20px;
+  font-style: normal;
+  line-height: 23px;
+  padding: 12px;
   margin-bottom: 23px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .li-item {
   gap: 30px;
+  margin-bottom: 24px;
+}
+
+.name-input,
+.text-input {
+  color: #81818C;
+}
+
+.email-input {
+  color: #191765;
+  border: 1px solid #9490FF;
 }
 
 .detail-input {
+  display: flex;
+  align-items: center;
   padding: 10px;
-  background-color: aliceblue;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  background-color: #f7f3ff;
   width: 100%;
   margin: 10px 0;
   border-style: none;
 }
 
+.submit-btn:hover,
+a:hover {
+  color: #FFFFFF;
+}
+
 .submit-btn {
   cursor: pointer;
-  color: aliceblue;
-  padding: 14px 16px;
-  background-color: #072af3;
+  color: #EDECFF;
+  font-family: 'Roboto';
+  font-style: normal;
+  padding: 12px 17px;
+  font-weight: 500;
+  background-color: #7D73FC;
   border-style: none;
-  justify-self: center;
-  font-size: 16px;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);;
 }
 
 .btn-container {
+  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin: 20px 0;
 }
 
+.end-line {
+  display: block;
+  align-self: center;
+  border-bottom: 2px solid rgb(70, 67, 67);
+  margin: 10px 0 0 0;
+  width: 335px;
+}
+
 .email-me {
+  color: #EBEBFF;
   text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
   margin: 10px 0 20px 0;
+}
+
+.mail-line {
+  display: block;
+  border-top: 3px solid rgb(0, 0, 0);
+  margin: 0 0 7px 0;
+  width: 150px;
 }
