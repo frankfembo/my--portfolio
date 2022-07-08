@@ -20,11 +20,11 @@
         <header class="nav-bar">
           <a href="#" class="nav-logo"> Frank</a>
           <nav class="nav-item">
-            <a href="#portfolio" class="desk-link nav-port">Portfolio</a>
-            <a href="#about" class="desk-link about-nav">About</a>
-            <a href="#contact" class="desk-link contact-nav">Contact</a>
-            <a href="#email" class="desk-link mail-icon"><i class="material-icons">email</i></a>
-            <a href="#" class="nav-menu">
+            <a href="#portfolio" class="desk-link">Portfolio</a>
+            <a href="#about" class="desk-link">About</a>
+            <a href="#contact" class="desk-link">Contact</a>
+            <a href="#mail-icon" class="desk-link"><i class="material+icons">email</i></a>
+            <a href="#">
               <div class="menu"></div>
               <div class="menu"></div>
               <div class="menu"></div>
@@ -34,7 +34,7 @@
         <article class="page-content">
 
           <!--home page-->
-          <section id="home" class="home-content">
+          <section id="about" class="home-content">
             <div class="circle-1">
               <h1 class="name"><strong>Frank Tembo</strong></h1>
               <p class="occupation"><strong>Software Developer</strong></p>
@@ -123,7 +123,7 @@
             <!-- work-1 -->
 
             <div class="ellips-1 work-1">
-              <div class="image">
+              <div class="image img-left">
                 <img src="./images/images (1).jpg" alt="Recent Projetcs" style="width: 100%;">
               </div>
               <div class="multi-post">
@@ -149,7 +149,7 @@
 
             <!-- work-2 -->
             <div class="work-2">
-              <div class="image">
+              <div class="image img-right">
                 <img src="./images/multi-post.jpg" alt="Recent Projetcs" style="width: 100%;">
               </div>
               <div class="multi-post">
@@ -175,7 +175,7 @@
 
             <!-- work-3 -->
             <div class="ellips-3 work-1">
-              <div class="image">
+              <div class="image img-left">
                 <img src="./images/multi-post.jpg" alt="Recent Projetcs" style="width: 100%;">
               </div>
               <div class="multi-post">
@@ -201,7 +201,7 @@
 
             <!-- work-4 -->
             <div class="work-2">
-              <div class="image">
+              <div class="image img-right">
                 <img src="./images/multi-post.jpg" alt="Recent Projetcs" style="width: 100%;">
               </div>
               <div class="multi-post">
@@ -228,7 +228,7 @@
 
           <!--Contact-form-->
           <section id="contact" class="c-form">
-            <h4 class="con-us">CONTACT US</h4>
+            <h4 class="con-us contact-us">CONTACT US</h4>
             <h3 class="con-us lets-chat">Let's Chat!</h3>
             <p class="con-par">
               If you have an application you are
@@ -238,6 +238,14 @@
             </p>
             <form action="https://formspree.io/f/xqknvevr" method="post">
               <ul class="un-list">
+                <li class="li-item desk-ver">
+                  <label for="fname">
+                    <input type="text" name="fname" id="fname" class="name-input detail-input" placeholder="First Name" max-length="15" required/>
+                  </label>
+                  <label for="lname">
+                    <input type="text" name="lname" id="lname" class="name-input detail-input" placeholder="Last Name" max-length="15" required/>
+                  </label>
+                </li>
                 <li class="li-item mob-ver">
                   <label for="name">
                     <input type="text" name="name" id="name" class="name-input detail-input" placeholder="Enter your names..." max-lenght="30" required/>
