@@ -10,7 +10,8 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" media="screen and (max-device-width: 768px)">
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-device-width: 768px)">
     <title>My Portfolio</title>
   </head>
   <body>
@@ -20,7 +21,11 @@
         <header class="nav-bar">
           <a href="#" class="nav-logo"> Frank</a>
           <nav class="nav-item">
-            <a href="#">
+            <a href="#portfolio" class="desk-link nav-port">Portfolio</a>
+            <a href="#about" class="desk-link about-nav">About</a>
+            <a href="#contact" class="desk-link contact-nav">Contact</a>
+            <a href="#email" class="desk-link mail-icon"><i class="material-icons">email</i></a>
+            <a href="#" class="nav-menu">
               <div class="menu"></div>
               <div class="menu"></div>
               <div class="menu"></div>
@@ -37,9 +42,10 @@
             </div>
             <div class="about-me descript">
               <div class="prof">
-                <p class="prof-text">I can help you build a product, feature or website. Look through
-                some of my work and experience! If you like what you see and have a project that
-                you need coded, please don't hesitate to contact me.
+                <p class="prof-text">I can help you build a product, feature or website.
+                  Look through some of my work and experience! If
+                  you like what you see and have a project that you need
+                coded, please don't hesitate to contact me.
                 </p>
 
                 <div class="end-line"></div>  
