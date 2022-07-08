@@ -500,7 +500,8 @@
     font-family: 'Roboto', sans-serif;
   }
 
-  .un-list > .mob-ver {
+  .un-list > .mob-ver,
+  .mob-mail {
     display: none;
     margin: 0;
     padding: 0;
@@ -534,27 +535,31 @@
   }
   
   /* Net book */
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1032px) {
     .main-view {
-      width: 95%;
+      width: 100%;
       height: auto;
+      margin: 0;
     }
   
     .asside {
-      max-width: 4%;
-      height: auto;
+      display: none;
+      margin: 0;
     }
   }
   
   /* Desktop */
   @media screen and (max-width: 1680px) {
-    .main-view {
-      width: 70%;
+    .main-view > * {
+      width: 1015px;
+      flex-grow: 0;
       height: auto;
+      margin: auto;
     }
   
     .asside {
-      width: 13.7%;
+      width: auto;
+      margin: auto;
       height: auto;
     }
   }
@@ -576,9 +581,15 @@
     height: 100%;
     max-width: 100%;
     padding: 20px 10px;
-    flex-grow: 1;
+    flex: 1 100%;
     align-self: center;
     background-color: #00005b;
+    background-image: url("./images/Ellipse\ 20@2x.png");
+    background-position: relative;
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
   }
   
   .nav-bar {
@@ -596,6 +607,7 @@
     justify-items: center;
     align-items: center;
     text-decoration: none;
+    font-size: 22px;
     font-weight: 400;
     color: rgb(207, 184, 184);
     font-family: 'Roboto', sans-serif;
@@ -609,8 +621,9 @@
     padding: 20px;
     text-decoration: none;
     color: rgb(207, 184, 184);
-    font-size: 26px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
   }
   
   .page-content {
@@ -618,13 +631,12 @@
     flex-direction: column;
     max-width: 100%;
     min-height: 100%;
-    background-color: #00005b;
     justify-items: center;
     align-items: center;
     justify-content: center;
     background-image: url('./images/circle\ 1\ header@2x.jpg');
     background-position: relative;
-    background-size: 24%;
+    background-size: 22%;
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: top;
@@ -729,7 +741,6 @@
     height: 158px;
     width: 100%;
     position: relative;
-    background-color: #00005b;
     justify-content: center;
     align-content: center;
     padding: 50px 0;
@@ -806,24 +817,6 @@
   .image > img {
     width: 100%;
     height: 270px;
-  }
-
-  .ellips-1 {
-    background-image: url("./images/Ellipse\ 19@2x.png");
-    background-position: relative;
-    background-size: 32%;
-    background-repeat: no-repeat;
-    background-position-x: left;
-    background-position-y: center;
-  }
-  
-  .ellips-3 {
-    background-image: url("./images/Ellipse\ 20@2x.png");
-    background-position: relative;
-    background-size: 30%;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: center;
   }
 
   .multi-post > h3 {
@@ -948,11 +941,11 @@
     color: #edecff;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
-    padding: 12px 19px;
+    padding: 11px 30px;
     font-weight: 500;
     background-color: #7d73fc;
     border-style: none;
-    font-size: 12px;
+    font-size: 16px;
     letter-spacing: 0.04em;
     box-shadow: rgba(125, 115, 252, 0.48);
   }
@@ -967,7 +960,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 20px 0;
+    margin: 40px 0;
   }
 
   .email-me {
@@ -976,9 +969,9 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    margin: 10px 0 20px 0;
+    font-size: 19px;
+    line-height: 24px;
+    margin: 10px 0 10px 5px;
   }
 }
 }
