@@ -10,8 +10,7 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
     
-    <link rel="stylesheet" href="style.css" media="screen and (max-device-width: 768px)">
-    <link rel="stylesheet" href="desktop.css" media="screen and (min-device-width: 768px)">
+    <link rel="stylesheet" href="style.css">
     <title>My Portfolio</title>
   </head>
   <body>
@@ -90,7 +89,7 @@
 
           </section>
 
-          <footer class="footer">
+          <footer class="footer back-foot">
             <nav>
               <ul class="media-icons">
                 <li>
@@ -123,7 +122,7 @@
             <div class="end-line"></div>
             <!-- work-1 -->
 
-            <div class="ellips-1">
+            <div class="ellips-1 work-1">
               <div class="image">
                 <img src="./images/images (1).jpg" alt="Recent Projetcs" style="width: 100%;">
               </div>
@@ -149,7 +148,7 @@
             </div>
 
             <!-- work-2 -->
-            <div>
+            <div class="work-2">
               <div class="image">
                 <img src="./images/multi-post.jpg" alt="Recent Projetcs" style="width: 100%;">
               </div>
@@ -175,7 +174,7 @@
             </div>
 
             <!-- work-3 -->
-            <div class="ellips-3">
+            <div class="ellips-3 work-1">
               <div class="image">
                 <img src="./images/multi-post.jpg" alt="Recent Projetcs" style="width: 100%;">
               </div>
@@ -201,7 +200,7 @@
             </div>
 
             <!-- work-4 -->
-            <div>
+            <div class="work-2">
               <div class="image">
                 <img src="./images/multi-post.jpg" alt="Recent Projetcs" style="width: 100%;">
               </div>
@@ -230,6 +229,7 @@
           <!--Contact-form-->
           <section id="contact" class="c-form">
             <h4 class="con-us">CONTACT US</h4>
+            <h3 class="con-us lets-chat">Let's Chat!</h3>
             <p class="con-par">
               If you have an application you are
               interested in developing, a feature that you
@@ -238,9 +238,17 @@
             </p>
             <form action="https://formspree.io/f/xqknvevr" method="post">
               <ul class="un-list">
-                <li class="li-item">
+                <li class="li-item mob-ver">
                   <label for="name">
                     <input type="text" name="name" id="name" class="name-input detail-input" placeholder="Enter your names..." max-lenght="30" required/>
+                  </label>
+                </li>
+                <li class="li-item desk-ver">
+                  <label for="fname">
+                    <input type="text" name="fname" id="fname" class="name-input detail-input" placeholder="First Name" max-lenght="15" required/>
+                  </label>
+                  <label for="lname">
+                    <input type="text" name="lname" id="lname" class="name-input detail-input" placeholder="Last Name" max-lenght="15" required/>
                   </label>
                 </li>
                 <li class="li-item">
@@ -281,11 +289,14 @@
                 <li>
                   <a href="#" class="fa fa-medium"></a>
                 </li>
+                <li mail-desk>
+                  <a class="email-me" href="mailto:tembofrank600@gmail.com?subject=Reaching20%Out">tembofrank600@gmail.com</a>
+                </li>
               </ul>
             </nav>
           </footer>
 
-          <a class="email-me" href="mailto:tembofrank600@gmail.com?subject=Reaching20%Out">tembofrank600@gmail.com</a>
+          <a class="email-me mob-mail" href="mailto:tembofrank600@gmail.com?subject=Reaching20%Out">tembofrank600@gmail.com</a>
           <div class="mail-line"></div>
 
         </article>
