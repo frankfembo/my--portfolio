@@ -7,10 +7,6 @@
 }
 
 @media screen and (max-width: 720px) {
-  .main-view {
-    width: 100%;
-    height: auto;
-  }
 
   .asside {
     display: none;
@@ -24,7 +20,7 @@
     margin: 0;
     padding: 0;
   }
-  
+
   .c-form > .lets-chat {
     display: none;
     padding: 0;
@@ -80,17 +76,10 @@
     flex: 1 100%;
   }
 
-  .asside {
-    max-width: 20%;
-    gap: 0.5%;
-    min-height: 100%;
-    background-color: rgb(40, 103, 105);
-  }
-
   .main-view {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    width: 100%;
     height: 100%;
     align-self: center;
     border-radius: 2.5% 2.5%;
@@ -510,28 +499,28 @@
     padding: 0;
     margin: 0;
   }
-  
+
   /* Tablet */
   @media screen and (max-width: 800px) {
     .main-view {
       width: 100%;
       height: auto;
     }
-  
+
     .nav-menu {
       display: none;
       border: none;
       margin: 0;
       padding: 0;
     }
-    
+
     .asside {
       display: none;
       padding: 0;
       margin: 0;
     }
   }
-  
+
   /* Net book */
   @media screen and (max-width: 1032px) {
     .main-view {
@@ -539,13 +528,13 @@
       height: auto;
       margin: 0;
     }
-  
+
     .asside {
       display: none;
       margin: 0;
     }
   }
-  
+
   /* Desktop */
   @media screen and (max-width: 1680px) {
     .main-view > * {
@@ -554,25 +543,25 @@
       height: auto;
       margin: auto;
     }
-  
+
     .asside {
       width: auto;
       margin: auto;
       height: auto;
     }
   }
-  
+
   .wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
-  
+
   .asside {
     min-height: 100%;
     background-color: #00005b;
   }
-  
+
   .main-view {
     display: flex;
     flex-direction: column;
@@ -589,7 +578,7 @@
     background-position-x: right;
     background-position-y: center;
   }
-  
+
   .nav-bar {
     display: flex;
     max-width: 100%;
@@ -598,7 +587,7 @@
     align-items: center;
     background-color: #00005b;
   }
-  
+
   .nav-item > a {
     gap: 10px;
     margin-right: 20px;
@@ -610,11 +599,11 @@
     color: rgb(207, 184, 184);
     font-family: 'Roboto', sans-serif;
   }
-  
+
   .mail-icon {
     margin-bottom: 0;
   }
-  
+
   .nav-logo {
     padding: 20px;
     text-decoration: none;
@@ -623,7 +612,7 @@
     font-weight: 500;
     margin-bottom: 8px;
   }
-  
+
   .page-content {
     display: flex;
     flex-direction: column;
@@ -645,18 +634,18 @@
     display: flex;
     flex-grow: 1;
   }
-  
+
   h1 {
     font-size: 65px;
   }
-  
+
   .name {
     font-weight: 500;
     color: #6495ed;
     text-align: center;
     margin: 40px 0;
   }
-  
+
   .occupation {
     color: #afabab;
     text-align: center;
@@ -665,13 +654,13 @@
     margin-bottom: 30px;
     padding-bottom: 19px;
   }
-  
+
   .descript .prof {
     display: flex;
     max-width: 100%;
     flex-direction: column;
   }
-  
+
   .prof p {
     color: #b3bac5;
     font-style: normal;
@@ -682,7 +671,7 @@
     text-align: center;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
   }
-  
+
   .lang-skills {
     display: flex;
     flex-flow: row wrap;
@@ -691,13 +680,13 @@
     padding: 20px;
     gap: 30px;
   }
-  
+
   .lang-skills .lang {
     flex-grow: 0;
     display: flex;
     flex-direction: column;
   }
-  
+
   h5 {
     font-size: 18px;
     font-weight: 200;
@@ -705,7 +694,7 @@
     padding-left: 2px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
   }
-  
+
   .lang ul,
   li {
     color: #b3bac5;
@@ -716,7 +705,7 @@
     list-style-type: none;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
   }
-  
+
   .end-line {
     display: block;
     align-self: center;
@@ -724,7 +713,7 @@
     margin: 10px 0 0 0;
     width: 100%;
   }
-  
+
   .back-foot {
     background-image: url('./images/circle\ 2\ hder@2x.png');
     background-position: relative;
@@ -733,7 +722,7 @@
     background-position-x: right;
     background-position-y: bottom;
   }
-  
+
   .footer {
     display: flex;
     height: 158px;
@@ -744,13 +733,13 @@
     padding: 50px 0;
     margin-bottom: 15px;
   }
-  
+
   .media-icons {
     display: flex;
     align-items: center;
     position: relative;
   }
-  
+
   .footer .fa {
     text-align: center;
     margin: 17px 3px;
@@ -761,12 +750,12 @@
     background: #00005b;
     text-decoration: none;
   }
-  
+
   .footer li {
     display: flex;
     list-style-type: none;
   }
-  
+
   /* Portfolio-Work section */
 
   .work-content {
@@ -824,7 +813,7 @@
     margin-bottom: 12px;
     font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
-  
+
   .multi-post > p {
     color: #afabab;
     font-size: 16px;
@@ -858,7 +847,7 @@
   .butn > button :hover {
     color: rgb(101, 101, 241);
   }
-  
+
   .butn > button {
     cursor: pointer;
     font-size: 20px;
@@ -869,7 +858,7 @@
   }
 
   /* Contact Form */
-  
+
   .c-form {
     display: flex;
     flex-direction: column;
@@ -877,7 +866,7 @@
     padding: 20px;
     max-width: 55%;
   }
-  
+
   .con-us {
     color: #9390ff;
     text-align: center;
@@ -898,7 +887,7 @@
     margin-bottom: 23px;
     font-family: 'Inter', sans-serif;
   }
-  
+
   .li-item {
     gap: 30px;
     margin-bottom: 24px;
@@ -914,12 +903,12 @@
     width: 100%;
     justify-content: space-between;
   }
-  
+
   .email-input {
     color: #191765;
     border: 1px solid #9490ff;
   }
-  
+
   .detail-input {
     display: flex;
     align-items: center;
@@ -947,12 +936,12 @@
     letter-spacing: 0.04em;
     box-shadow: rgba(125, 115, 252, 0.48);
   }
-  
+
   .submit-btn:hover,
   a:hover {
     color: #fff;
   }
-  
+
   .btn-container {
     display: flex;
     justify-content: center;
