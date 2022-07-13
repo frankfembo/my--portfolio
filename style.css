@@ -429,9 +429,13 @@ li {
   box-shadow: rgba(125, 115, 252, 0.48);
 }
 
-.submit-btn:active,
-a:hover {
+.submit-btn:active {
   background-color: #5e42d7;
+}
+
+a:hover,
+button:hover {
+  color: burlywood;
 }
 
 .btn-container {
