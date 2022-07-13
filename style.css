@@ -927,7 +927,7 @@
     color: #191765;
     border: 1px solid #9490ff;
   }
-  
+
   .detail-input {
     display: flex;
     align-items: center;
@@ -954,7 +954,7 @@
     letter-spacing: 0.04em;
     box-shadow: rgba(125, 115, 252, 0.48);
   }
-  
+
   .submit-btn:active {
     background-color: #5e42d7;
   }
@@ -977,5 +977,4 @@
     line-height: 24px;
     margin: 10px 0 10px 5px;
   }
-
 }
