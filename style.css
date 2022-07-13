@@ -429,9 +429,9 @@ li {
   box-shadow: rgba(125, 115, 252, 0.48);
 }
 
-.submit-btn:hover,
+.submit-btn:active,
 a:hover {
-  color: #fff;
+  background-color: #5e42d7;
 }
 
 .btn-container {
