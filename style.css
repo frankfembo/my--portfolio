@@ -202,7 +202,7 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
   }
-  
+
   .lang-skills {
     display: flex;
     flex-flow: row wrap;
@@ -863,10 +863,6 @@
     list-style-type: none;
   }
 
-  .butn > button:hover {
-    background-color: #5e42d7;
-  }
-
   .butn > button {
     cursor: pointer;
     font-size: 17px;
@@ -874,6 +870,10 @@
     background-color: #1c3cee;
     padding: 15px 7px;
     border-style: none;
+  }
+
+  .butn > button:hover {
+    background-color: #5e42d7;
   }
 
   /* Contact Form */
@@ -906,7 +906,7 @@
     margin-bottom: 23px;
     font-family: 'Inter', sans-serif;
   }
-  
+
   .li-item {
     /* gap: 30px; */
     margin-bottom: 24px;
