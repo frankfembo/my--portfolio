@@ -6,11 +6,18 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 700px) {
-  @media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .main-view {
       width: 100%;
       height: auto;
+    }
+
+    .work-left,
+    .work-right {
+      display: none;
+      margin: 0;
+      padding: 0;
     }
 
     .asside {
@@ -32,8 +39,13 @@
     margin: 0;
   }
 
-  .un-list > .desk-ver,
-  .mail-desk {
+  .mail-desk a {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .un-list > .desk-ver {
     display: none;
     margin: 0;
     padding: 0;
@@ -79,19 +91,20 @@
 
   .wrapper > * {
     flex: 1 100%;
+    background-color: #00005b;
   }
 
   .asside {
     max-width: 20%;
     gap: 0.5%;
     min-height: 100%;
-    background-color: rgb(40, 103, 105);
+    background-color: #00005b;
   }
 
   .main-view {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    max-width: 670px;
     height: 100%;
     align-self: center;
     border-radius: 2.5% 2.5%;
@@ -100,7 +113,7 @@
 
   .nav-bar {
     display: flex;
-    max-width: 500px;
+    max-width: 670px;
     height: 52px;
     justify-content: space-between;
     align-items: center;
@@ -495,7 +508,7 @@
 
 /* Desktop Version */
 
-@media screen and (min-width: 701px) {
+@media screen and (min-width: 769px) {
   * {
     padding: 0;
     margin: 0;
@@ -517,7 +530,7 @@
   }
 
   /* Tablet */
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1024px) {
     .main-view {
       width: 100%;
       height: auto;
@@ -538,11 +551,12 @@
   }
 
   /* Net book */
-  @media screen and (max-width: 1032px) {
+  @media screen and (max-width: 1199px) {
     .main-view {
       width: 97%;
       height: auto;
       margin: 0;
+      padding: 0;
     }
 
     .asside {
@@ -552,18 +566,19 @@
   }
 
   /* Desktop */
-  @media screen and (max-width: 1680px) {
-    .main-view > * {
-      width: 78%;
+  @media screen and (min-width: 1200px) {
+    .main-view {
+      width: 68%;
       flex-grow: 0;
       height: auto;
       margin: auto;
     }
 
     .asside {
-      width: auto;
+      width: 14%;
       margin: auto;
       height: auto;
+      background-color: #00005b;
     }
   }
 
@@ -571,6 +586,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: #00005b;
   }
 
   .asside {
@@ -582,7 +598,7 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    max-width: 100%;
+    max-width: 1024;
     padding: 20px 10px;
     flex: 1 100%;
     align-self: center;
@@ -657,13 +673,13 @@
 
   .name {
     font-weight: 500;
-    color: #6495ed;
+    color: #9390ff;
     text-align: center;
     margin: 40px 0;
   }
 
   .occupation {
-    color: #afabab;
+    color: #dfe1e6;
     text-align: center;
     font-weight: 400;
     font-size: 44px;
@@ -717,7 +733,7 @@
     font-size: 15px;
     padding: 0 2px;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 36px;
     list-style-type: none;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
   }
@@ -742,12 +758,20 @@
   .footer {
     display: flex;
     height: 158px;
-    width: 100%;
+    max-width: 100%;
+    gap: 290px;
     position: relative;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
     padding: 50px 0;
     margin-bottom: 15px;
+  }
+
+  .work-left,
+  .work-right {
+    color: #edecff;
+    margin-top: 120px;
+    align-self: center;
   }
 
   .media-icons {
@@ -758,7 +782,7 @@
 
   .footer .fa {
     text-align: center;
-    margin: 17px 4px;
+    margin: 72px 4px 12px 4px;
     font-size: 30px;
     width: 26px;
     height: 28;
@@ -805,17 +829,17 @@
   .work-2 {
     display: flex;
     flex-direction: row-reverse;
-    gap: 2rem;
+    gap: 1.4rem;
     margin-block: 40px;
   }
 
   .multi-post {
-    max-width: 37%;
+    max-width: 38%;
     height: auto;
   }
 
   .image {
-    width: 63%;
+    width: 62%;
     height: auto;
   }
 
@@ -826,8 +850,8 @@
 
   .multi-post > h3 {
     color: rgb(212, 212, 198);
-    font-weight: 430;
-    font-size: 22px;
+    font-weight: 700;
+    font-size: 24px;
     margin-top: 8px;
     margin-bottom: 12px;
     font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -837,7 +861,7 @@
     color: #afabab;
     font-size: 16px;
     line-height: 21px;
-    margin-bottom: 9px;
+    margin-bottom: 8px;
     font-family: 'Roboto', 'Lusida Sans', Helvetica, sans-serif;
   }
 
@@ -847,15 +871,15 @@
 
   .specialize > li {
     display: inline-flex;
-    margin-inline: 7px;
-    margin-block: 10px;
+    margin-inline: 0px;
+    margin-block: 8px;
     font-size: 16px;
   }
 
   .trim-line {
     display: inline-block;
     border-left: 1px solid rgb(105, 98, 98);
-    margin: 0 9px;
+    margin: 0 6px;
     height: 26px;
   }
 
@@ -908,7 +932,6 @@
   }
 
   .li-item {
-    /* gap: 30px; */
     margin-bottom: 24px;
   }
 
@@ -975,6 +998,6 @@
     font-weight: 400;
     font-size: 19px;
     line-height: 24px;
-    margin: 10px 0 10px 5px;
+    margin: 66px 0 10px 5px;
   }
 }
