@@ -871,7 +871,6 @@
 
   .specialize > li {
     display: inline-flex;
-    margin-inline: 0px;
     margin-block: 8px;
     font-size: 16px;
   }
