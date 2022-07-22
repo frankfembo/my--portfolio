@@ -662,7 +662,7 @@
   }
 
   .descript {
-    max-width: 507px;
+    max-width: 100%;
     display: flex;
     flex-grow: 1;
   }
@@ -685,11 +685,25 @@
     font-size: 44px;
     margin-bottom: 30px;
     padding-bottom: 19px;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 250%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 
   .descript .prof {
     display: flex;
-    max-width: 100%;
+    max-width: 507px;
     flex-direction: column;
   }
 
@@ -749,7 +763,7 @@
   .back-foot {
     background-image: url('./images/circle\ 2\ hder@2x.png');
     background-position: relative;
-    background-size: 17%;
+    background-size: 16%;
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
@@ -861,7 +875,7 @@
     color: #afabab;
     font-size: 16px;
     line-height: 21px;
-    margin-bottom: 8px;
+    margin-bottom: 7px;
     font-family: 'Roboto', 'Lusida Sans', Helvetica, sans-serif;
   }
 
@@ -893,10 +907,12 @@
     background-color: #1c3cee;
     padding: 15px 7px;
     border-style: none;
+    transition: font-size 2s, padding 2s, background-color 2s, transform 2s;
   }
 
   .butn > button:hover {
     background-color: #5e42d7;
+    transform: rotate(360deg);
   }
 
   /* Contact Form */
