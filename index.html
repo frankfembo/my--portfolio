@@ -24,11 +24,18 @@
             <a href="#about" class="desk-link about-nav">About</a>
             <a href="#contact" class="desk-link contact-nav">Contact</a>
             <a href="#email" class="desk-link mail-icon"><i class="material-icons">email</i></a>
-            <a href="#" class="nav-menu">
-              <div class="menu"></div>
-              <div class="menu"></div>
-              <div class="menu"></div>
-            </a>
+            <div class="dropdown">
+              <a href="#" class="nav-menu" onclick="crossMenuFunc(this)" onclick="dropdownFunc()">
+                <div class="menu1"></div>
+                <div class="menu2"></div>
+                <div class="menu3"></div>
+              </a>
+              <div id="menuDrop" class="drop-list">
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+              </div>
+            </div>
           </nav>
         </header>
         <article class="page-content">
@@ -203,7 +210,7 @@
             <!-- work-4 -->
             <div class="work-2">
               <div class="image">
-                <img src="./images/images (1).jpg" alt="Recent Projetcs Image" style="width: 100%;">
+                <  src="./images/images (1).jpg" alt="Recent Projetcs Image" style="width: 100%;">
               </div>
               <div class="multi-post">
                 <h3>Multi-Post Stories</h3>
@@ -305,5 +312,7 @@
       </main>
       <asside class="asside-2 asside"></asside>
     </section>
+
+    <script src="/script.js "></script>
   </body>
 </html>

@@ -120,11 +120,34 @@
     background-color: #00005b;
   }
 
-  .menu {
+  .menu1,
+  .menu2,
+  .menu3 {
     width: 30px;
     height: 2px;
     background-color: rgb(207, 184, 184);
     margin: 3px 3px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .change .menu1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  .change .menu2 {
+    opacity: 0;
+  }
+
+  .change .menu3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+  .nav-menu div:hover,
+  .nav-menu div:active {
+    background-color: #6495ed;
   }
 
   .nav-item {
