@@ -120,6 +120,11 @@
     background-color: #00005b;
   }
 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
   .menu1,
   .menu2,
   .menu3 {
@@ -132,8 +137,8 @@
   }
 
   .change .menu1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
+    -webkit-transform: rotate(-45deg) translate(-5px, 5px);
+    transform: rotate(-45deg) translate(-5px, 5px);
   }
 
   .change .menu2 {
@@ -141,13 +146,39 @@
   }
 
   .change .menu3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
+    -webkit-transform: rotate(45deg) translate(-5px, -5px);
+    transform: rotate(45deg) translate(-5px, -5px);
   }
 
   .nav-menu div:hover,
   .nav-menu div:active {
     background-color: #6495ed;
+  }
+
+  .drop-list {
+    display: none;
+    position: absolute;
+    background-color: #6495ed;
+    overflow: auto;
+    max-width: 140px;
+    box-shadow: 0 5px 10px 0
+    rgba(0,0,0,0.3);
+    z-index: 1;
+  }
+
+  .drop-list a {
+    color: #81818c;
+    text-decoration: none;
+    display: block;
+    padding: 7px 11px;
+  }
+
+  .drop-list a:hover {
+    background-color: #5e42d7;
+  }
+
+  .show {
+    display: block;
   }
 
   .nav-item {
