@@ -1,46 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-compatible" content="IE=edge">
-    <meta name="HandheldFriendly" content="true">
-       
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
-    
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta name="HandheldFriendly" content="true" />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
   </head>
   <body>
     <section class="wrapper">
       <asside class="asside-1 asside"></asside>
       <main class="main-view">
+        <!-- Navbar -->
         <header class="nav-bar">
           <a href="#" class="nav-logo"> Frank</a>
           <nav class="nav-item">
-            <a href="#portfolio" class="desk-link nav-port">Portfolio</a>
-            <a href="#about" class="desk-link about-nav">About</a>
-            <a href="#contact" class="desk-link contact-nav">Contact</a>
-            <a href="#email" class="desk-link mail-icon"><i class="material-icons">email</i></a>
-            <div class="dropdown">
-              <div class="nav-menu" onclick="crossMenuFunc(this)" onclick="dropdownFunc()">
-                <div class="menu1"></div>
-                <div class="menu2"></div>
-                <div class="menu3"></div>
-              </div>
-              <div id="menuDrop" class="drop-list">
-                <a href="#portfolio">Portfolio</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-              </div>
+            <a href="#portfolio" class="desk-link nav-port desktop-opt"
+              >Portfolio</a
+            >
+            <a href="#about" class="desk-link about-nav desktop-opt">About</a>
+            <a href="#contact" class="desk-link contact-nav desktop-opt"
+              >Contact</a
+            >
+            <a href="#email" class="desk-link mail-icon desktop-opt"
+              ><i class="material-icons desktop-opt">email</i></a
+            >
+
+            <!-- hamburger-icon -->
+            <div
+              class="navbar__mobile__hamburger"
+              id="hamburger"
+              onclick="crossMenuFunc(this)"
+              onclick="dropdownFunc()"
+            >
+              <div class="menu1"></div>
+              <div class="menu2"></div>
+              <div class="menu3"></div>
+            </div>
+            <!-- hamburger -->
+            <div class="navbar__mobile">
+              <ul class="navbar__mobile__opt">
+                <li class="navbar__mobile--list">
+                  <div></div>
+                  <a class="navbar__cross" id="cross" href="#"
+                    >X</a
+                  >
+                </li>
+                <li class="navbar__mobile--list">
+                  <a href="#">Portfolio</a>
+                  <img class="right-image" src="images/right-arrow.png" alt="options" />
+                </li>
+                <li class="navbar__mobile--list">
+                  <a href="#">About</a>
+                  <img class="right-image" src="images/right-arrow.png" alt="options" />
+                </li>
+                <li class="navbar__mobile--list">
+                  <a href="#">Contact</a>
+                  <img class="right-image" src="images/right-arrow.png" alt="options" />
+                </li>
+              </ul>
             </div>
           </nav>
         </header>
-        <article class="page-content">
 
-          <!--home page-->
+        <!--home page-->
+        <article class="page-content">
           <section id="home" class="home-content">
             <div class="circle-1">
               <h1 class="name"><strong>Frank Tembo</strong></h1>
@@ -48,12 +88,14 @@
             </div>
             <div class="about-me descript">
               <div class="prof">
-                <p class="prof-text">I can help you build a product, feature or website. Look through
-                some of my work and experience! If you like what you see and have a project that
-                you need coded, please don't hesitate to contact me.
+                <p class="prof-text">
+                  I can help you build a product, feature or website. Look
+                  through some of my work and experience! If you like what you
+                  see and have a project that you need coded, please don't
+                  hesitate to contact me.
                 </p>
 
-                <div class="end-line"></div>  
+                <div class="end-line"></div>
 
                 <div class="lang-skills">
                   <div class="lang">
@@ -89,10 +131,8 @@
                 </div>
 
                 <div class="end-line"></div>
-
               </div>
             </div>
-
           </section>
 
           <footer class="footer back-foot">
@@ -132,15 +172,19 @@
 
             <div class="ellips-1 work-1">
               <div class="image">
-                <img src="./images/images (1).jpg" alt="Recent Projetcs" style="width: 100%;">
+                <img
+                  src="./images/images (1).jpg"
+                  alt="Recent Projetcs"
+                  style="width: 100%"
+                />
               </div>
               <div class="multi-post">
                 <h3>Multi-Post Stories</h3>
-                <p>A daily selection of privately personalised
-                   reads; no accounts or sign-ups required, has
-                   been the industry's standard dummy text ever
-                   since the 1500s, when an unknown printer took
-                   a standard dummy text.
+                <p>
+                  A daily selection of privately personalised reads; no accounts
+                  or sign-ups required, has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  standard dummy text.
                 </p>
                 <ul class="specialize">
                   <li>css</li>
@@ -151,22 +195,28 @@
                   <span class="trim-line"></span>
                   <li>Ruby</li>
                 </ul>
-                <a href="#" class="butn"><button type="button">See Project</button></a>
+                <a href="#" class="butn"
+                  ><button type="button">See Project</button></a
+                >
               </div>
             </div>
 
             <!-- work-2 -->
             <div class="work-2">
               <div class="image">
-                <img src="./images/images (1).jpg" alt="Recent Projetcs" style="width: 100%;">
+                <img
+                  src="./images/images (1).jpg"
+                  alt="Recent Projetcs"
+                  style="width: 100%"
+                />
               </div>
               <div class="multi-post">
                 <h3>Multi-Post Stories</h3>
-                <p>A daily selection of privately personalised
-                   reads; no accounts or sign-ups required, has
-                   been the industry's standard dummy text ever
-                   since the 1500s, when an unknown printer took
-                   a standard dummy text.
+                <p>
+                  A daily selection of privately personalised reads; no accounts
+                  or sign-ups required, has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  standard dummy text.
                 </p>
                 <ul class="specialize">
                   <li>css</li>
@@ -177,22 +227,28 @@
                   <span class="trim-line"></span>
                   <li>Ruby</li>
                 </ul>
-                <a href="#" class="butn"><button type="button">See Project</button></a>
+                <a href="#" class="butn"
+                  ><button type="button">See Project</button></a
+                >
               </div>
             </div>
 
             <!-- work-3 -->
             <div class="ellips-3 work-1">
               <div class="image">
-                <img src="./images/images (1).jpg" alt="Recent Projetcs" style="width: 100%;">
+                <img
+                  src="./images/images (1).jpg"
+                  alt="Recent Projetcs"
+                  style="width: 100%"
+                />
               </div>
               <div class="multi-post">
                 <h3>Multi-Post Stories</h3>
-                <p>A daily selection of privately personalised
-                   reads; no accounts or sign-ups required, has
-                   been the industry's standard dummy text ever
-                   since the 1500s, when an unknown printer took
-                   a standard dummy text.
+                <p>
+                  A daily selection of privately personalised reads; no accounts
+                  or sign-ups required, has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  standard dummy text.
                 </p>
                 <ul class="specialize">
                   <li>css</li>
@@ -203,22 +259,25 @@
                   <span class="trim-line"></span>
                   <li>Ruby</li>
                 </ul>
-                <a href="#" class="butn"><button type="button">See Project</button></a>
+                <a href="#" class="butn"
+                  ><button type="button">See Project</button></a
+                >
               </div>
             </div>
 
             <!-- work-4 -->
             <div class="work-2">
               <div class="image">
-                <  src="./images/images (1).jpg" alt="Recent Projetcs Image" style="width: 100%;">
+                < src="./images/images (1).jpg" alt="Recent Projetcs Image"
+                style="width: 100%;">
               </div>
               <div class="multi-post">
                 <h3>Multi-Post Stories</h3>
-                <p>A daily selection of privately personalised
-                   reads; no accounts or sign-ups required, has
-                   been the industry's standard dummy text ever
-                   since the 1500s, when an unknown printer took
-                   a standard dummy text.
+                <p>
+                  A daily selection of privately personalised reads; no accounts
+                  or sign-ups required, has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  standard dummy text.
                 </p>
                 <ul class="specialize">
                   <li>css</li>
@@ -229,7 +288,9 @@
                   <span class="trim-line"></span>
                   <li>Ruby</li>
                 </ul>
-                <a href="#" class="butn"><button type="button">See Project</button></a>
+                <a href="#" class="butn"
+                  ><button type="button">See Project</button></a
+                >
               </div>
             </div>
           </section>
@@ -239,34 +300,74 @@
             <h4 class="con-us contact-us">CONTACT US</h4>
             <h3 class="con-us lets-chat">Let's Chat!</h3>
             <p class="con-par">
-              If you have an application you are
-              interested in developing, a feature that you
-              need built or a project that needs coding.
-              I'd love to help with it.
+              If you have an application you are interested in developing, a
+              feature that you need built or a project that needs coding. I'd
+              love to help with it.
             </p>
             <form action="https://formspree.io/f/xqknvevr" method="post">
               <ul class="un-list">
                 <li class="mob-ver li-item">
                   <label for="name">
-                    <input type="text" name="name" id="name" class="name-input detail-input" placeholder="Enter your names..." maxlenght="30" required/>
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      class="name-input detail-input"
+                      placeholder="Enter your names..."
+                      maxlenght="30"
+                      required
+                    />
                   </label>
                 </li>
                 <li class="li-item desk-ver">
                   <label for="fname">
-                    <input type="text" name="fname" id="fname" class="name-input detail-input" placeholder="First Name" maxlenght="15" required/>
+                    <input
+                      type="text"
+                      name="fname"
+                      id="fname"
+                      class="name-input detail-input"
+                      placeholder="First Name"
+                      maxlenght="15"
+                      required
+                    />
                   </label>
                   <label for="lname">
-                    <input type="text" name="lname" id="lname" class="name-input detail-input" placeholder="Last Name" maxlenght="15" required/>
+                    <input
+                      type="text"
+                      name="lname"
+                      id="lname"
+                      class="name-input detail-input"
+                      placeholder="Last Name"
+                      maxlenght="15"
+                      required
+                    />
                   </label>
                 </li>
                 <li class="li-item">
                   <label for="name">
-                    <input type="email" name="email" id="email" class="email-input detail-input" placeholder="example@gmail.com" maxlenght="30" required/>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      class="email-input detail-input"
+                      placeholder="example@gmail.com"
+                      maxlenght="30"
+                      required
+                    />
                   </label>
                 </li>
                 <li class="li-item">
                   <label for="textarea">
-                    <textarea class="text-input detail-input" name="text" id="text" cols="23" rows="5" placeholder="Enter text here..." maxlength="500" required></textarea>
+                    <textarea
+                      class="text-input detail-input"
+                      name="text"
+                      id="text"
+                      cols="23"
+                      rows="5"
+                      placeholder="Enter text here..."
+                      maxlength="500"
+                      required
+                    ></textarea>
                   </label>
                 </li>
                 <li class="btn-container">
@@ -274,7 +375,6 @@
                 </li>
               </ul>
             </form>
-
           </section>
 
           <div class="end-line"></div>
@@ -298,17 +398,23 @@
                   <a href="#" class="fa fa-medium"></a>
                 </li>
                 <li class="mail-desk">
-                  <a class="email-me" href="mailto:tembofrank600@gmail.com?subject=Reaching20%Out">tembofrank600@gmail.com</a>
+                  <a
+                    class="email-me"
+                    href="mailto:tembofrank600@gmail.com?subject=Reaching20%Out"
+                    >tembofrank600@gmail.com</a
+                  >
                 </li>
               </ul>
             </nav>
           </footer>
 
-          <a class="email-me mail-mob" href="mailto:tembofrank600@gmail.com?subject=Reaching20%Out">tembofrank600@gmail.com</a>
+          <a
+            class="email-me mail-mob"
+            href="mailto:tembofrank600@gmail.com?subject=Reaching20%Out"
+            >tembofrank600@gmail.com</a
+          >
           <div class="mail-line"></div>
-
         </article>
-
       </main>
       <asside class="asside-2 asside"></asside>
     </section>
