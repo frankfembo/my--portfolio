@@ -12,6 +12,11 @@
     display: none;
   }
 
+  .media-icons > .mail-desk,
+  .un-list > .desk-ver {
+    display: none;
+  }
+
   .navbar__mobile__opt {
     display: none;
     position: fixed;
