@@ -7,11 +7,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .main-view {
-    width: 100%;
-    height: auto;
-  }
-
   /* hamburger */
   .desktop-opt {
     display: none;
@@ -130,13 +125,6 @@
 
   .wrapper > * {
     flex: 1 100%;
-    background-color: #00005b;
-  }
-
-  .asside {
-    max-width: 20%;
-    gap: 0.5%;
-    min-height: 100%;
     background-color: #00005b;
   }
 
@@ -372,8 +360,7 @@
     color: #6495ed;
     margin-block: 5px;
     font-weight: bold;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
-      sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", sans-serif;
   }
 
   .recent-work > .wh2 {
@@ -411,8 +398,7 @@
     font-weight: 430;
     font-size: 22px;
     margin-bottom: 31px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
-      sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", sans-serif;
   }
 
   .multi-post > p {
@@ -517,8 +503,7 @@
   .submit-btn {
     cursor: pointer;
     color: #edecff;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
-      "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
     font-style: normal;
     padding: 12px 19px;
     font-weight: 500;
@@ -557,8 +542,7 @@
   .email-me {
     color: #ebebff;
     text-decoration: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
-      "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -597,7 +581,8 @@
     margin: 0;
     padding: 0;
   }
-  */ .c-form > .contact-us {
+
+  .c-form > .contact-us {
     display: none;
     padding: 0;
     margin: 0;
@@ -944,8 +929,7 @@
     font-size: 24px;
     margin-top: 8px;
     margin-bottom: 12px;
-    font-family: "Roboto", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
-      sans-serif;
+    font-family: "Roboto", "Lucida Sans", sans-serif;
   }
 
   .multi-post > p {
@@ -1057,8 +1041,7 @@
   .submit-btn {
     cursor: pointer;
     color: #edecff;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
-      "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
     font-style: normal;
     padding: 11px 30px;
     font-weight: 500;
@@ -1084,8 +1067,7 @@
   .email-me {
     color: #ebebff;
     text-decoration: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
-      "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 19px;
