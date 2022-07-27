@@ -12,7 +12,7 @@ function hamburger () {
   });
 
   [...hamburgerListItems].forEach(item => {
-    item.addEventListener("click", ()=>{
+    item.addEventListener("click", () => {
       document.getElementsByClassName("navbar__mobile__opt")[0].style.display = "none";
     })
   });
