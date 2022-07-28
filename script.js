@@ -19,3 +19,26 @@ function hamburger () {
 }
 
 hamburger();
+
+function modalPopup () {
+  let modalWind = document.getElementById('popModal');
+  let modal = document.getElementsByClassName('modal');
+  let modBtn = document.getElementsByClassName('seeProj');
+  let closeBtn = document.getElementsByClassName('close')[0];
+
+  modBtn.onclick = function() {
+    modalWind.style.display = 'block';
+  }
+
+  closeBtn.onclick = function() {
+    modalWind.style.display = 'none';
+  }
+
+  window.onclick = function(event) {
+    if (event.target == modalWind) {
+      modalWind.style.display = 'none';
+    }
+  }
+}
+
+modalPopup();
