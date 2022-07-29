@@ -20,25 +20,32 @@ function hamburger () {
 
 hamburger();
 
-function modalPopup () {
-  let modalWind = document.getElementById('popModal');
-  let modal = document.getElementsByClassName('modal');
-  let modBtn = document.getElementsByClassName('seeProj');
-  let closeBtn = document.getElementsByClassName('close')[0];
 
-  modBtn.onclick = function() {
-    modalWind.style.display = 'block';
-  }
+const modalWind = document.getElementsByClassName('modal')[0];
+const closeBtn = document.getElementsByClassName('close')[0];
 
-  closeBtn.onclick = function() {
-    modalWind.style.display = 'none';
-  }
+const seeBtn1 = document.getElementsByClassName('see-proj1')[0];
+const seeBtn2 = document.getElementsByClassName('see-proj2')[0];
+const seeBtn3 = document.getElementsByClassName('see-proj3')[0];
+const seeBtn4 = document.getElementsByClassName('see-proj4')[0];
 
-  window.onclick = function(event) {
-    if (event.target == modalWind) {
-      modalWind.style.display = 'none';
-    }
-  }
+seeBtn1.addEventListener('click', openMod);
+seeBtn2.addEventListener('click', openMod);
+seeBtn3.addEventListener('click', openMod);
+seeBtn4.addEventListener('click', openMod);
+
+function openMod() {
+  modalWind.style.display = 'block';
 }
 
-modalPopup();
+closeBtn.addEventListener('click', closeMod);
+function closeMod() {
+  modalWind.style.display = 'none';
+}
+
+window.addEventListener('click', closeMod2);
+function closeMod2(e) {
+  if (e.target == modalWind) {
+    modalWind.style.display = 'none';
+  }
+}
